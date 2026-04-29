@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ```bash
 python train_obb.py \
-  --data ./dataset_firstpass_10000_human_behavior_v2/dataset.yaml \
+  --data ./dataset_synthetic/dataset.yaml \
   --model yolo11n-obb.pt \
   --epochs 60 \
   --batch 8 \
@@ -55,9 +55,3 @@ OBB labels use:
 ```text
 class x1 y1 x2 y2 x3 y3 x4 y4
 ```
-
-## Notes
-
-- Keep `.pt` checkpoints out of git.
-- Store selected models in artifact storage.
-- See `CAMERA_CAPTURE_GUIDELINES.md` for camera capture tips.
