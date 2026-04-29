@@ -1,0 +1,53 @@
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Large datasets and intermediate files
+dataset*/
+*.zip
+synthetic_mtg_obb/
+crops/
+frozen_models/
+
+# Training runs and outputs
+runs/
+benchmarks/
+output/
+input/
+
+# Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.eggs/
+
+# Environment
+.venv/
+venv/
+env/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+train_resume.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+temp/
+tmp/
+test_file/
+visualized/
+diagnostics/
+pose_results/
